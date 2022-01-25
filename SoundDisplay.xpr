@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2018.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="38" Path="C:/Users/William/Desktop/S5_13_Lam Junyu William_LAM KAI WEN JONATHAN_Archive.xpr/SoundDisplay/SoundDisplay.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="9e94dd2fd9e54c4e84f39432988a2fe8"/>
+    <Option Name="Part" Val="xc7a35tcpg236-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSAVendor" Val="xilinx"/>
+    <Option Name="DSANumComputeUnits" Val="60"/>
+    <Option Name="WTXSimLaunchSim" Val="49"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/new/Audio_Capture.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Audio_Capture.v"/>
+          <Attr Name="ImportTime" Val="1570395503"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Draw_Border.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Draw_Border.v"/>
+          <Attr Name="ImportTime" Val="1617192617"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Draw_Ex.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Draw_Ex.v"/>
+          <Attr Name="ImportTime" Val="1617343191"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Draw_Kirby.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Draw_Kirby.v"/>
+          <Attr Name="ImportTime" Val="1617351003"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Draw_Level.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Draw_Level.v"/>
+          <Attr Name="ImportTime" Val="1617361601"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Draw_Mario.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Draw_Mario.v"/>
+          <Attr Name="ImportTime" Val="1617364329"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Draw_Nyan.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Draw_Nyan.v"/>
+          <Attr Name="ImportTime" Val="1617348113"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Draw_OLED.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Draw_OLED.v"/>
+          <Attr Name="ImportTime" Val="1617360092"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Oled_Display.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v"/>
+          <Attr Name="ImportTime" Val="1570395512"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/P_CLK.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/P_CLK.v"/>
+          <Attr Name="ImportTime" Val="1615429837"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/de_single_pulse.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/de_single_pulse.v"/>
+          <Attr Name="ImportTime" Val="1615430532"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/dff.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/dff.v"/>
+          <Attr Name="ImportTime" Val="1615430304"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/volume_indicator.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/volume_indicator.v"/>
+          <Attr Name="ImportTime" Val="1617360244"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Top_Student.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v"/>
+          <Attr Name="ImportTime" Val="1570395690"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/Explode1.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/Explode1.txt"/>
+          <Attr Name="ImportTime" Val="1617079047"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/Explode2.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/Explode2.txt"/>
+          <Attr Name="ImportTime" Val="1617080397"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/Explode3.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/Explode3.txt"/>
+          <Attr Name="ImportTime" Val="1617098436"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/Explode4.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/Explode4.txt"/>
+          <Attr Name="ImportTime" Val="1617098387"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/Error1.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/Error1.txt"/>
+          <Attr Name="ImportTime" Val="1617190839"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/Error2.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/Error2.txt"/>
+          <Attr Name="ImportTime" Val="1617190873"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/marathon_animation.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/marathon_animation.txt"/>
+          <Attr Name="ImportTime" Val="1617339943"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/nyan_game_top.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/nyan_game_top.txt"/>
+          <Attr Name="ImportTime" Val="1617272866"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/nyan_sunset2.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/nyan_sunset2.txt"/>
+          <Attr Name="ImportTime" Val="1617270222"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/nyan_sunset3.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/nyan_sunset3.txt"/>
+          <Attr Name="ImportTime" Val="1617270222"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/deadanimationnyan.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/deadanimationnyan.txt"/>
+          <Attr Name="ImportTime" Val="1617270226"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/nyan_sunset1.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/nyan_sunset1.txt"/>
+          <Attr Name="ImportTime" Val="1617270219"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/nyan_game_mid.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/nyan_game_mid.txt"/>
+          <Attr Name="ImportTime" Val="1617272867"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/deadanimationnyan_norain.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/deadanimationnyan_norain.txt"/>
+          <Attr Name="ImportTime" Val="1617270227"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/game_over2.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/game_over2.txt"/>
+          <Attr Name="ImportTime" Val="1617339945"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/kirby_charged.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/kirby_charged.txt"/>
+          <Attr Name="ImportTime" Val="1617289010"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/kirby_beam.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/kirby_beam.txt"/>
+          <Attr Name="ImportTime" Val="1617289011"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/kirby_intro.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/kirby_intro.txt"/>
+          <Attr Name="ImportTime" Val="1617289015"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/kirby_wind.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/kirby_wind.txt"/>
+          <Attr Name="ImportTime" Val="1617289009"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/kirby_missed_low.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/kirby_missed_low.txt"/>
+          <Attr Name="ImportTime" Val="1617289014"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/kirby_miss_middle.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/kirby_miss_middle.txt"/>
+          <Attr Name="ImportTime" Val="1617289012"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/marathon_animation2.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/marathon_animation2.txt"/>
+          <Attr Name="ImportTime" Val="1617339945"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/marathon_animation1.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/marathon_animation1.txt"/>
+          <Attr Name="ImportTime" Val="1617339944"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/peach_animation3.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/peach_animation3.txt"/>
+          <Attr Name="ImportTime" Val="1617342556"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/peach_animation2.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/peach_animation2.txt"/>
+          <Attr Name="ImportTime" Val="1617342555"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/princess_animation4.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/princess_animation4.txt"/>
+          <Attr Name="ImportTime" Val="1617342560"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/peach_animation1.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/peach_animation1.txt"/>
+          <Attr Name="ImportTime" Val="1617342555"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Project/nyan_game_intro.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/nyan_game_intro.txt"/>
+          <Attr Name="ImportTime" Val="1617363863"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Downloads/SoundDisplay_Mario.xpr/SoundDisplay/archive_project_summary.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/SoundDisplay_Mario.xpr/SoundDisplay/archive_project_summary.txt"/>
+          <Attr Name="ImportTime" Val="1617370717"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Documents/mario_middle_pipe.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Documents/mario_middle_pipe.txt"/>
+          <Attr Name="ImportTime" Val="1617373350"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Documents/mario_close_pipe.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Documents/mario_close_pipe.txt"/>
+          <Attr Name="ImportTime" Val="1617375269"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Documents/mario_far_pipe.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Documents/mario_far_pipe.txt"/>
+          <Attr Name="ImportTime" Val="1617375344"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Documents/mario_jumping2.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Documents/mario_jumping2.txt"/>
+          <Attr Name="ImportTime" Val="1617375802"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Documents/mario_past.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Documents/mario_past.txt"/>
+          <Attr Name="ImportTime" Val="1617375515"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Documents/mario_intube.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Documents/mario_intube.txt"/>
+          <Attr Name="ImportTime" Val="1617386565"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Documents/mario_flag_jump.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Documents/mario_flag_jump.txt"/>
+          <Attr Name="ImportTime" Val="1617386468"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/William/Documents/mario_flag_far.txt">
+        <FileInfo SFType="MIF">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Documents/mario_flag_far.txt"/>
+          <Attr Name="ImportTime" Val="1617390172"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/archive_project_summary.txt"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Top_Student"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/new/Basys3_Master.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc"/>
+          <Attr Name="ImportTime" Val="1570394606"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/new/Top_Student_Simulation.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../Documents/School/EE2026/Project/SoundDisplay/SoundDisplay.srcs/sim_1/new/Top_Student_Simulation.v"/>
+          <Attr Name="ImportTime" Val="1617285910"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Top_Student_Simulation"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+  <Board/>
+</Project>
